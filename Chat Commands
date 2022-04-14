@@ -1,0 +1,119 @@
+Some info:
+
+1. If you want to spawn a vehicle, you need to use the name from the game files.
+   Example: Oppressor Mk II = oppressor2
+   You can use this site to get the name: https://www.gtabase.com/grand-theft-auto-v/vehicles (After selecting the vehicle, find "MODEL ID")
+
+2. Some commands like vehicle commands will only work if you are near me. The "/spawn" command should always work.
+
+3. Most commands with "/" that you want to use on yourself do not require <player>.
+   Example:
+   For yourself:
+    /kill <player> (/kill <player who will be killed>)
+    /spawnrandom <vehicle>
+   For other player:
+    /kill <player> <player> (/kill <player who will be killed> <player who kills him>)
+    /spawnrandom <player> <vehicle>
+
+5. Some commands should work if you use "/" instead of "!" and vice versa. You may then get false notifications in game chat. Please pay attention to this.
+
+
+
+List of commands with "/":
+Vehicle:
+    /spawn <vehicle> – Spawn Vehicle
+    /spawnrandom <player> <vehicle> – Spawn Vehicle With Random Upgrades
+    /vehiclegod <on/off> – Make Your Vehicle Indestructible
+    /upgrade – Upgrade Vehicle
+    /repair – Repair Vehicle
+Teleport:
+    /apartmentteleport <player> <1 - 114> – Apartment Invite
+    /tp <player> <player/location> – Teleport to...
+Friendly:
+    /clearwanted – Clear Wanted Level
+    /neverwanted <player> <on/off> – Never Wanted
+    /offtheradar <player> <on/off> – Off The Radar
+Weapons:
+    /giveweapon <player> <weapon name/all> – Give Weapon(s)
+    /removeweapon <player> <weapon name/all> – Remove Weapon(s)
+Trolling:
+    /setbounty <player> – Place Bounty
+    /cage <player> – Cage Player
+    /trap <player> – Trap Player
+    /kill <player> <player> – Kill Player
+    /clowns <player> – Send Clown Vans
+    /chopper <player> – Send Attack Chopper
+Remove:
+    /kick <player> – Kick Player
+    /crash <player> – Crash Player
+
+
+
+List of commands with "!":
+Self:
+	Weapons:
+		!allguns – Get All Weapons
+		!noguns – Remove All Weapons
+	!wanted 0 – Set Wanted Level To 0
+Vehicle:
+	!spawn [model name] – Spawn Vehicle
+Players:
+	Teleport:
+		Teleport To Apartment:
+			!aptme [player/all] – Near Me
+			!apt[1 to 114] [player/all] – To Selected
+		!vacate [player/all] – Teleport To Cayo Perico
+		!summon [player/all] – Teleport Vehicle To Me
+	Friendly:
+		!gift [player] – Gift Spawned Vehicle
+		!ceopay [player/all] [on/off] – CEO Money Loop
+		!rp [player/all] [on/off] – Drop RP
+		!autoheal [player/all] [on/off] – Auto Heal
+		!bail [player/all] [on/off] – Never Wanted
+		!giveotr [player/all] [on/off] – Off The Radar
+		!snack [player/all] [on/off] – Drop P's & Q's
+	Chat:
+		!chatmock [player/all] [on/off/spoofing] – Mock Chat Messages
+		!chatowo [player/all] [on/off/spoofing] – OwO-ify Chat Messages
+	Weapons:
+		!arm [player/all] – Give All Weapons
+		!ammo [player/all] – Give Ammo
+		!paragive [player/all] – Give Parachute
+		!disarm [player/all] [on/off] – Disarm
+	Trolling:
+		!freeze [player/all] [on/off] – Freeze
+		!bounty [player/all] [0 to 10000] – Place Bounty
+		Send Notifications:
+			!notifyremoved [player/all] [-2147483648 to 2147483647] – Cash Removed
+			!notifystolen [player/all] [-2147483648 to 2147483647] – Cash Stolen
+			!notifybanked [player/all] [-2147483648 to 2147483647] – Cash Banked
+			!notifyspam [player/all] [on/off] – Notification Spam
+		!vehkick [player/all] – Kick From Vehicle
+		!novehs [player/all] – Disable Driving Vehicles
+		!ceokick [player/all] – CEO/MC Kick
+		!ceoban [player/all] – CEO/MC Ban
+	Issue Commands On Their Behalf:
+		!as [player] – Issue Commands On Their Behalf
+	Increment Commend/Report Stats:
+		!commendhelpful [player/all] – Helpful
+		!commendfriendly [player/all] – Friendly
+		!reportgriefing [player/all] – Griefing
+		!reportexploits [player/all] – Exploits
+		!reportbugabuse [player/all] – Game Bug Exploits
+		!reportannoying [player/all] – Text Chat: Annoying Me
+		!reporthate [player/all] – Text Chat: Using Hate Speech
+		!reportvcannoying [player/all] – Voice Chat: Annoying Me
+		!reportvchate [player/all] – Voice Chat: Using Hate Speech
+	Kick:
+		!kick [player/all] – Smart
+		!breakup [player/all] – Breakup
+		!loveletterkick [player] – Love Letter
+		!orgasmkick [player] – Orgasm
+		!blacklist [player/all] – Blacklist
+		!hostkick [player/all] – Host
+		!nonhostkick [player/all] – Non-Host
+		!pickupkick [player] – Invalid Pickup
+	Crash:
+		!crash [player/all] – Elegant
+		!footlettuce [player] – Burger King Foot Lettuce
+		!slaughter [player] – Vehicular Manslaughter
